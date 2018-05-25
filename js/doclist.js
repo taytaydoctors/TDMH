@@ -1,5 +1,5 @@
 const options = {
-  valueNames: [ 'name', 'spec', 'spec2', 'spec3' ]
+  valueNames: [ 'name', 'spec', 'days', 'times' ]
 };
 
-let userList = new List('users', options);
+let userList = new List('doctors', options);

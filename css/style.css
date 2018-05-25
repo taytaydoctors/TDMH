@@ -246,6 +246,7 @@ header .navbar .dropdown-menu a {
 .owl-carousel.home-slider .slider-item .slider-text h1 {
   font-size: 72px;
   color: #fff;
+  background-color: rgba(15,107,255,0.4);
   line-height: 1.2;
   font-weight: 300;
 }
@@ -260,6 +261,7 @@ header .navbar .dropdown-menu a {
   font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
+  background-color: rgba(15,107,255,0.4);
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1033,4 +1035,16 @@ input:focus {
   position: relative;
   top:-4px;
   right:-5px;
+}
+
+.blue {
+  background-color: #0F6BFF;
+}
+
+.blue:hover {
+  background-color: rgba(15,107,255,0.8);
+}
+
+.search {
+  margin-right: 1rem;
 }
