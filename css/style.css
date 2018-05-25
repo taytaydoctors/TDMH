@@ -1065,6 +1065,8 @@ input:focus {
   }
   .bg-img-mob {
     visibility: visible;
+    max-width: 100vw;
+    z-index: -1;
   }
   .right {
     margin-left: 0;
