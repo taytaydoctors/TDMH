@@ -253,7 +253,8 @@ header .navbar .dropdown-menu a {
 
 @media (max-width: 991px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 40px;
+    font-size: 60px;
+    margin-bottom: 20vh;
   }
 }
 
@@ -1047,4 +1048,25 @@ input:focus {
 
 .search {
   margin-right: 1rem;
+}
+
+.right {
+  text-align: right;
+  margin-left: 35vw;
+}
+
+.bg-img-mob {
+  visibility: hidden;
+}
+
+@media (max-width: 600px) {
+  .bg-img {      
+    visibility: hidden;
+  }
+  .bg-img-mob {
+    visibility: visible;
+  }
+  .right {
+    margin-left: 0;
+  }
 }
