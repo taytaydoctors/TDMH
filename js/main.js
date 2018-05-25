@@ -37,19 +37,19 @@
     animateIn: 'fadeIn',
     nav:true,
     autoplayHoverPause: true,
-    items: 1,
+    items: 2,
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
     responsive:{
       0:{
-        items:1,
+        items:2,
         nav:false
       },
       600:{
-        items:1,
+        items:2,
         nav:false
       },
       1000:{
-        items:1,
+        items:2,
         nav:true
       }
     }
@@ -66,7 +66,7 @@
     animateIn: 'fadeIn',
     nav: true,
     autoplayHoverPause: true,
-    items: 2,
+    items: 3,
     navText : ["<span class='ion-chevron-left'></span>","<span class='ion-chevron-right'></span>"],
     responsive:{
       0:{
